@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .flexCenter {
+        @apply flex justify-center items-center
+    }
+
+    .flexBetween {
+        @apply flex justify-between items-center
+    }
+
+    .title {
+        @apply font-bold mb-10 text-3xl text-center
+    }
+
+    .input {
+        @apply block w-full rounded-md p-2 placeholder:text-sm border-none outline-none ring-1 ring-slate-700 focus:ring-2 mb-4
+    }
+
+    .btn {
+        @apply block w-full bg-slate-800 text-white p-2 rounded-md active:bg-slate-700 
+    }
+
+}
